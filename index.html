@@ -11,10 +11,8 @@ DATA: 05/10/2023
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- styles -->
    <link rel="stylesheet" href="./src/styles/main.css">
    
-   <!-- icone -->
    <link rel="shortcut icon" href="./src/images/favicon.jpg" type="image/x-icon">
 
    <title>Detona Ralph</title>
@@ -22,9 +20,7 @@ DATA: 05/10/2023
 <body>
 
    <div class="container">
-
-      <!---------- INICIO MENU ---------->
-      <div class="menu">
+        <div class="menu">
          <div class="menu-time">
             <h2 class="titulo">Time left</h2>
             <h2 id="time">0</h2>
@@ -40,10 +36,6 @@ DATA: 05/10/2023
             <h2 id="life">3</h2>
          </div>
       </div>
-      <!---------- FIM MENU ---------->
-
-
-      <!---------- INICIO PANEL ---------->
       <div class="panel">
          <div class="panel-row">
             <div class="square enemy" id="1"></div>
@@ -63,14 +55,9 @@ DATA: 05/10/2023
             <div class="square" id="9"></div>
          </div>
       </div>
-      <!---------- FIM PANEL ---------->
 
       <button id="btn-continuar" class="btn-continuar" onclick="reiniciarJogo()" >Continuar</button>
    </div>
-
-   
-
-   <!-- Javascript-->
    <script defer src="./src/scripts/engine.js"></script>
 </body>
 </html>
