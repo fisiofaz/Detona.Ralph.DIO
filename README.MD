@@ -6,7 +6,7 @@ Bem-vindo ao **Game Detona Ralph**! Neste repositório, você encontrará um jog
 
 <h2>Conheça o projeto clicando na imagem abaixo:</h2>
 
-<a href="https://thalesacardoso.github.io/dio-projeto-jogo-detonaRalph">
+<a href="https://fisiofaz.github.io/Detona.Ralph.DIO/">
   <img src="./src/images/jogo.png">
 </a>
 
